@@ -20,7 +20,7 @@ Source files are inside *BrujulaIT/basics-of-html5-css3-jquery/public* folder.
 
 The project have been done using NodeJs with ExpressJs for agile development, jQuery on client side, Bootstrap 4, and WebStorm IDE.
 
-The exercise was easy so I have introduced SCSS compiler to write the custom CSS clases .
+The exercise was easy so I have introduced SCSS compiler to write the custom CSS classes .
 
 In JS there are two files, one of this is a service where I've simulated the Namespace approach of JS language.
 
