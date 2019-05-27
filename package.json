@@ -1,0 +1,19 @@
+{
+  "name": "basics-of-html5-css3-jquery",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Alejandro Martínez Peregrina",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
