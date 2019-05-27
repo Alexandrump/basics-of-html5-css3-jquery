@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+header {
+  background-image: -moz-linear-gradient(#c4023f, #ea7b9c);
+  background-image: -webkit-linear-gradient(#c4023f, #ea7b9c);
+  background-image: linear-gradient(#c4023f, #ea7b9c);
+  min-height: 200px; }
+
+header > div {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center; }
+
+h1 {
+  color: #000000; }
+
+label {
+  font-size: 20px;
+  font-weight: bold; }
+
+#main-container {
+  border: 1px solid #000000;
+  padding: 10px 25px; }
+
+input, select {
+  border: 2px solid #000000;
+  border-radius: 3px;
+  min-height: 40px;
+  text-align: center;
+  padding: 6px;
+  background: #FFF; }
+
+/*# sourceMappingURL=style.css.map */
