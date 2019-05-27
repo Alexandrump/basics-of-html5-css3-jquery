@@ -1,0 +1,75 @@
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/javascripts/Service/formValidator.js"></script>
+    <script src="/javascripts/Controller/formController.js"></script>
+</head>
+
+<body>
+<div id="main-container" class="container">
+    <header class="row">
+        <div class="col-12 m-auto p-auto">
+            <img src="#" alt="cabecera.png">
+        </div>
+    </header>
+
+    <main class="row p-4">
+        <h1 class="col-12">
+            Especifica tus datos personales:
+        </h1>
+        <form method="get" action="" class="row">
+            <div class="col-md-5 col-12 p-3">
+                <label for="name" >Nombre</label><br>
+                <input id="name" name="name" class="w-100" type="text" required>
+            </div>
+
+            <div class="col-md-2 d-md-flex d-none p-3"></div>
+
+            <div class="col-md-5 col-12 p-3">
+                <label for="surname">Apellidos</label><br>
+                <input id="surname" name="surname" class="w-100" type="text" required>
+            </div>
+
+            <div class="col-md-5 col-12 p-3">
+                <label for="phone">Teléfono</label><br>
+                <input id="phone" name="phone" class="w-100" type="tel"><!-- Could have use pattern="... ...." to validate!-->
+            </div>
+
+            <div class="col-md-2 d-md-flex d-none p-3"></div>
+
+            <div class="col-md-5 col-12 p-3">
+                <label for="email">Correo electrónico</label><br>
+                <input id="email" name="email" class="w-100" type="text" required><!-- Could have use type="email" to validate!-->
+            </div>
+
+            <div class="col-md-5 col-12 p-3">
+                <label for="gender">Sexo</label><br>
+                <select id="gender" name="gender" class="w-100">
+                    <option value="" selected>Por favor, selecciona</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+            </div>
+
+            <div class="col-md-7 d-md-flex d-none p-3"></div>
+
+            <div class="col-12 p-3 m-auto text-center">
+                <input class="btn-outline-dark" type="submit"value="Guardar">
+            </div>
+            <div id="message" class="col-12 p-3 m-auto text-center"></div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="d-none"><span>Diseño por Alejandro Martínez Peregrina</span></div>
+    </footer>
+</div>
+
+</body>
+
+</html>
